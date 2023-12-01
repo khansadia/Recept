@@ -1,0 +1,105 @@
+:root {
+    --radius: 0.8rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 60%;
+    height: 60%;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("https://recipe52.com/wp-content/uploads/2021/09/Chicken-Biryani-22-1.jpg"), url("https://www.google.com/search?sca_esv=586971717&q=biryani&tbm=isch&source=lnms&sa=X&ved=2ahUKEwikgf6gq-6CAxWsJBAIHZRZAy8Q0pQJegQIEBAB&biw=1536&bih=747&dpr=1.25#imgrc=KMYN57nH-gpn7M");
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(49, 49, 49);
+    background-blend-mode: soft-light;
+}
+.logo {
+    width: 120px;
+    height: 120px;
+    background: url("biryani.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+    background-position:auto;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    position: relative;
+  }
+  
+
+  #container {
+    background: white;
+    border-radius: var(--radius);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.85);
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+  }
+  
+  h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background: burlywood;
+    color: white;
+    padding: 3rem;
+    border-top-right-radius: var(--radius);
+    border-top-left-radius: var(--radius);
+  }
+  
+  .content {
+    padding: 40px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  .images {
+    height: 180px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+  }
+  
+  .images div {
+    overflow: hidden;
+  }
+  
+  .images img {
+    width: 100%;
+  }
+  
+  h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    margin-left: 40px;
+  }
+  
+  ul li {
+    line-height: 1.6rem;
+  }
+  
+  footer {
+    color: rgba(255, 255, 255, 0.6);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+  
